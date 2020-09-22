@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: golang-microservice-1
+  description: golang-microservice-1
+  annotations: 
+    github.com/project-slug: shmidt-i-test/golang-microservice-1
+    backstage.io/github-actions-id: shmidt-i-test/golang-microservice-1
+spec:
+  type: service
+  lifecycle: experimental
+  owner: shmidt-i
